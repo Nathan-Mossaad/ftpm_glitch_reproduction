@@ -1,3 +1,6 @@
 [submodule "psptool"]
 	path = psptool
 	url = https://github.com/Nuxar1/PSPTool.git
+[submodule "amd-sp-glitch"]
+	path = amd-sp-glitch
+	url = https://github.com/Nathan-Mossaad/amd-sp-glitch.git
