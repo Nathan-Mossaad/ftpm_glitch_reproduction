@@ -1,0 +1,3 @@
+[submodule "psptool"]
+	path = psptool
+	url = https://github.com/Nuxar1/PSPTool.git
