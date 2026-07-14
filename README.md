@@ -2,6 +2,8 @@
 
 This repository contains all modifications and additional scripts we had to do while reproducing
 
+Clone using: `git clone --recursive https://github.com/Nathan-Mossaad/ftpm_glitch_reproduction.git`
+
 # psptool
 
 - patching executable firmware with supplied .elf file instead of a premodified binary blob
@@ -41,14 +43,15 @@ They should be copied into `amd-sp-glitch/attack-code/` and run from there
 
 # hexdump_to_csv.py
 
-- Script to convert sigrok/pulseview generated .bin trace-file into the saleae format as required by [psptrace](https://github.com/PSPReverse/PSPTrace)
+- Script to convert sigrok/pulseview generated .bin trace-file into the saleae format as required by [psptrace](./psptrace)
 - Note: The timestamps are incorrect and estimated only using the sample rate (`BYTE_RATE_HZ`)!
 
 # Hacky workaround to actually decrypt the bitlocker volume
 
 The following is based on the README of [ftpm_attack](https://github.com/PSPReverse/ftpm_attack)
 
-Compiling the firmware (`.elf` target only) included and use our modified [PSPTool](./psptool) to replace the firmware
+Compiling the firmware (`.elf` target only) included and use our modified [PSPTool](./psptool) to replace the firmware \
+The exact version is pinned in [ftpm_attack](./ftpm_attack)
 
 - `sudo dnf install dislocker fuse-dislocker`
 - `uv python install python3.8`

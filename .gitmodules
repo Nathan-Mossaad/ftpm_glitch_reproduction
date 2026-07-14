@@ -4,3 +4,9 @@
 [submodule "amd-sp-glitch"]
 	path = amd-sp-glitch
 	url = https://github.com/Nathan-Mossaad/amd-sp-glitch.git
+[submodule "psptrace"]
+	path = psptrace
+	url = https://github.com/PSPReverse/PSPTrace.git
+[submodule "ftpm_attack"]
+	path = ftpm_attack
+	url = https://github.com/PSPReverse/ftpm_attack.git
