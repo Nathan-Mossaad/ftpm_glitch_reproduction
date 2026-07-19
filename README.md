@@ -4,6 +4,10 @@ This repository contains all modifications and additional scripts we had to do w
 
 Clone using: `git clone --recursive https://github.com/Nathan-Mossaad/ftpm_glitch_reproduction.git`
 
+# ftpm-glitcher
+
+An alternate implementation to glitch the AMD SP using a much cheaper Raspberry Pi pico. (Also removing the need for an expensive logic analyzer)
+
 # psptool
 
 - patching executable firmware with supplied .elf file instead of a premodified binary blob

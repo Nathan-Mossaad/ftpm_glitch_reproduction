@@ -10,3 +10,6 @@
 [submodule "ftpm_attack"]
 	path = ftpm_attack
 	url = https://github.com/PSPReverse/ftpm_attack.git
+[submodule "ftpm-glitcher"]
+	path = ftpm-glitcher
+	url = https://github.com/Nathan-Mossaad/ftpm-glitcher.git
